@@ -63,7 +63,7 @@ Function ```type()``` can display the type of the value:
 <class 'bool'>
 ```
 
-### Integers
+### Integer
 There is effectively no limit - except system memory - to how long an integer value can be.
 
 ```bash
@@ -93,7 +93,7 @@ examples:
 <class 'int'>
 ```
 
-### Floating-Point Numbers
+### Floating-Point Number
 
 Python float are represents as 64bit values. Therefore, the maximum value of a floating-point number can be ```1.8 ⨉ 10^308```. <br />
 
@@ -129,4 +129,42 @@ Anything less than ```5.0 ⨉ 10^-324``` is considered to be zero.
 ```
 
 Because floating-points are represented internally as ```binary```, the actual and represented values can be slightly different.
+
+### Complex number
+Are specified as ```<real-part>+<imaginary-part>j```:
+
+```bash
+>>> 10 + 2j
+(10+2j)
+
+>>> x = 10 + 2j
+>>> x.real
+10.0
+>>> x.imag
+2.0
+>>> x.conjugate()
+(10-2j)
+```
+
+Complex number can also get created using complex() function:
+
+```bash
+>>> complex(10, 2)
+(10+2j)
+```
+
+Complex numbers are useful in many applications related to mathematics and are mostly used where we define something using two real numbers. For example, a circuit element that is defined by Voltage (V) and Current (I).
+
+```bash
+>>> abs(10+2j)
+10.198039027185569
+```
+
+The absolute value of a complex number ```x+yi``` is ```sqrt((x^2) + (y^2))```.
+
+### Boolean
+
+### String
+
+### Build-in functions
 
