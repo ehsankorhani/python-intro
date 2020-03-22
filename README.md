@@ -45,6 +45,7 @@ python ––version
 ---
 
 ### References
-[Python Practice Book](https://anandology.com/python-practice-book)
-
-[How To Install Python 3.7 On Ubuntu 18.04](https://phoenixnap.com/kb/how-to-install-python-3-ubuntu)
+* [Real Python](https://realpython.com/)
+* [Python 3.8.2 documentation](https://docs.python.org/3.8/)
+* [Python Practice Book](https://anandology.com/python-practice-book)
+* [How To Install Python 3.7 On Ubuntu 18.04](https://phoenixnap.com/kb/how-to-install-python-3-ubuntu)
