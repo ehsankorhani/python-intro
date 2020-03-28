@@ -42,6 +42,18 @@ Verify the Python version with:
 python ––version
 ```
 
+<br>
+
+## Table of contents
+
+Chapter 1 - **Introduction**
+
+Chapter 2 - **Data structure**
+
+Chapter 3 - **Type conversion**
+
+Chapter 4 - **Built-in functions**
+
 ---
 
 ### References
