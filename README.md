@@ -60,4 +60,5 @@ Chapter 4 - **Built-in functions**
 * [Real Python](https://realpython.com/)
 * [Python 3.8.2 documentation](https://docs.python.org/3.8/)
 * [Python Practice Book](https://anandology.com/python-practice-book)
+* [Datacamp community](https://www.datacamp.com/community/tutorials)
 * [How To Install Python 3.7 On Ubuntu 18.04](https://phoenixnap.com/kb/how-to-install-python-3-ubuntu)
