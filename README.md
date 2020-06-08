@@ -54,6 +54,12 @@ Chapter 3 - **Type conversion**
 
 Chapter 4 - **Built-in functions**
 
+Chapter 5 - **Operations**
+
+Chapter 6 - **Functions**
+
+Chapter 7 -  **Classes and Interfaces**
+
 ---
 
 ### References
@@ -62,3 +68,5 @@ Chapter 4 - **Built-in functions**
 * [Python Practice Book](https://anandology.com/python-practice-book)
 * [Datacamp community](https://www.datacamp.com/community/tutorials)
 * [How To Install Python 3.7 On Ubuntu 18.04](https://phoenixnap.com/kb/how-to-install-python-3-ubuntu)
+* Effective Python: 90 Specific Ways to Write a Better Python - Brett Slatkin
+* [Corey Schafer Youtube channel](https://www.youtube.com/channel/UCCezIgC97PvUuR4_gbFUs5g)
