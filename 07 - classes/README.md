@@ -65,7 +65,7 @@ class Employee:
 ```__init__``` is the constructor of the class and runs when the class is being instantiated. <br>
 Though the ```pass``` keyword used here indicates the compiler to pass on this method. ```pass``` is used when we want to define a method but would not want to implement it.
 
-```self``` keyword is a pointer to the current instance of the class. Similar to ```this``` keyword in other OOP languages.<br>
+```self``` is a pointer to the current instance of the class. Similar to ```this``` keyword in other OOP languages.<br> It can be called anything but the convention is name it *self*.
 The difference here is that it has to be included as a parameter on every function.
 
 The important thing to note is that we cannot access the variables inside a class as:
@@ -160,7 +160,51 @@ print(it_manager.get_fullname())
 print(developer.get_fullname())
 ```
 
+## Static methods
 
+Instance methods take the instance (self) as the default first argument.
+
+Class or Static methods should be defined like:
+
+```py
+@classmethod
+def method_name(cls, param1):
+    pass
+```
+
+```@classmethod``` is a decorator, and ```cls``` - named by convention - is pointing to the Class.
+
+The class method can then be used to call from the Class and it will affect all the instances: 
+
+```py
+class Employee:
+    firstname = ''
+    lastname = ''
+    monthly_bonus = 0.0
+
+    def __init__(self, firstname, lastname):
+        self.firstname = firstname
+        self.lastname = lastname
+
+    def get_fullname(self):
+        return '{0} {1}'.format(self.firstname, self.lastname)
+
+    def add_task(self, title):
+        pass
+
+    @classmethod
+    def set_bonus(cls, amount):
+        cls.monthly_bonus = amount
+
+it_manager = Employee('John', 'Doe')
+
+Employee.set_bonus(1000)
+
+print (Employee.monthly_bonus) # 1000
+print (it_manager.monthly_bonus) # 1000
+```
+
+Unlike most of other OOP languages Static methods can be call on the instance objects as well.
 
 <!-- ## Inheritance
 
