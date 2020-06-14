@@ -340,3 +340,58 @@ print(mng_1.get_tasks()) # ['metting']
 
 <br>
 
+## Special methods
+
+We can perform **operator overloading** to classes with special methods - also called *magic* or *dunder* methods.
+
+To elaborate, ```+``` sign will perform an *Addition* with Integer types and *Concatenation* with Strings. That is because this operator behavior has been modified in each of these classes.
+
+Special methods which are useful to every class defined are: ```__repr__``` and ```__str__```.
+
+```py
+class Employee:
+
+    def __init__(self, firstname, lastname):
+        self.firstname = firstname
+        self.lastname = lastname
+
+    def get_fullname(self):
+        return '{0} {1}'.format(self.firstname, self.lastname)
+
+    def __repr__(self):
+        pass
+
+    def __str__(self):
+        pass
+```
+
+```__repr__``` is for developers and needs to be unambiguous. ```__str__``` is for the users and should be more readable.
+
+```py
+class Employee:
+
+    def __init__(self, firstname, lastname):
+        self.firstname = firstname
+        self.lastname = lastname
+
+    def get_fullname(self):
+        return '{0} {1}'.format(self.firstname, self.lastname)
+
+    def __repr__(self):
+        return "Employee('{}', '{}')".format(self.firstname, self.lastname)
+
+    def __str__(self):
+        return "{} - {}".format(self.firstname, self.lastname)
+
+emp_01 = Employee('Jane', 'Doe')
+
+print(emp_01.__repr__()) # Employee('Jane', 'Doe')
+print(emp_01.__str__()) # Jane - Doe
+```
+
+Other special methods includes ```__add__```, ```__len__```, etc.
+
+```py
+def __add__(self, other):
+    self.bonus + other.bonus
+```
