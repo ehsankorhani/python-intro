@@ -59,17 +59,25 @@ python ––version
 
 Chapter 1 - **Introduction**
 
-Chapter 2 - **Data structure**
+Chapter 2 - **Data structure and types**
 
-Chapter 3 - **Type conversion**
+Chapter 3 - **Numbers**
 
-Chapter 4 - **Built-in functions**
+Chapter 4 - **Boolean**
 
-Chapter 5 - **Operations**
+Chapter 5 - **Strings**
 
-Chapter 6 - **Functions**
+Chapter 6 - **Type conversion**
 
-Chapter 7 -  **Classes and Interfaces**
+Chapter 7 - **Variables**
+
+Chapter  - **Built-in functions**
+
+Chapter  - **Operations**
+
+Chapter  - **Functions**
+
+Chapter  -  **Classes and Interfaces**
 
 ---
 

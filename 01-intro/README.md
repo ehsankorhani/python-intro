@@ -12,6 +12,16 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
 
+or ```python3```:
+
+```bash
+$ python3
+Python 3.8.2 (default, Apr 27 2020, 15:53:34) 
+[GCC 9.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 
+```
+
 We can type any valid python expression at the prompt.
 
 ```bash
@@ -46,21 +56,4 @@ Run the script in shell with:
 ```bash
 $ python hello-world.py
 Positive number
-```
-
-<br />
-
-## Data types
-
-Function ```type()``` can display the type of the value:
-
-```bash
->>> type(10)
-<class 'int'>
-
->>> type("hello world!")
-<class 'str'>
-
->>> type(True)
-<class 'bool'>
 ```
