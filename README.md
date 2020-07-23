@@ -1,6 +1,17 @@
 # Learning Python
 Python learning journey
 
+## Install Python (on Ubuntu 20.04)
+
+Ubuntu 20.04 ships with ```Python3``` and ````pip3```.
+
+To check the version:
+
+```bash
+$ python3 -V
+$ pip3 -V
+```
+
 ## Install Python (on Ubuntu 18.04)
 
 **1**. Update package repository list
