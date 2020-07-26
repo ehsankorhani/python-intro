@@ -92,4 +92,3 @@ Anything less than ```5.0 ⨉ 10^-324``` is considered to be zero.
 ```
 
 Because floating-points are represented internally as ```binary```, the actual and represented values can be slightly different.
-

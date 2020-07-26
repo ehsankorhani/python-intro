@@ -1,55 +1,10 @@
-# Built-In Functions
 
-Python has many functions that are readily available for use.
-
-The data-type conversion such as ```bool()``` and ```str()``` are among those built-in functions.
-
-<br>
-
-## Mathematical methods
-
-**abs()**: absolute value
-```bash
->>> abs(-1.5)
-1.5
-```
-
-**sum()**: sum of all numbers is a tuple.
-```bash
->>> myTuple = (1, 3, 5, 7, 11)
->>> sum(myTuple)
-27
-```
-
-**min()** and **max()**
-```bash
->>> max(10, 18, 8)
-18
-
->>> min(10, 18, 8)
-8
-```
-
-**pow()**: returns the value of first number to power of second number.
-```bash
->>> pow(2, 10)
-1024
-```
-
-**round()**: rounds the specified number, with the specified number of decimals.
-```bash
->>> round(18.652, 2)
-18.65
-```
-
-<br>
-
-## String built-in methods
+# String built-in methods
 String methods returns new values. They do not change the original string.
 
 <br>
 
-**lower()** and **upper**
+### lower() and upper()
 
 They convert a string into lower or upper case:
 
@@ -65,7 +20,7 @@ Inaddition, *isupper()* and *islower()* return a boolean.
 
 <br>
 
-**capitalize()** and **title**
+### capitalize() and title()
 
 Converts the first character or every first character to upper case:
 
@@ -81,7 +36,7 @@ Converts the first character or every first character to upper case:
 
 <br>
 
-**count()**
+### count()
 
 Number of times a value has appears in the string:
 
@@ -92,7 +47,7 @@ Number of times a value has appears in the string:
 
 <br>
 
-**startswith()** and **endswith()** and **find()**
+### startswith() and endswith() and find()
 
 Return boolean if condition is satisfied or return the index of containing string.
 
@@ -114,7 +69,7 @@ Also, *index()*.
 
 <br>
 
-**split()** and **join()** and **partition()**
+### split() and join() and partition()
 
 ```bash
 >>> "Alfie Atkins".split()
@@ -129,7 +84,7 @@ Also, *index()*.
 
 <br>
 
-**strip()**
+### strip()
 
 ```bash
 >>> "  Alfie Atkins   ".strip()
@@ -138,7 +93,7 @@ Also, *index()*.
 
 <br>
 
-**format()**
+### format()
 
 Formats the specified value(s) and insert them inside the string's placeholder.
 

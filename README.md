@@ -65,15 +65,17 @@ Chapter 3 - **Variables**
 
 Chapter 4 - **Numbers**
 
-Chapter 5 - **Boolean**
+Chapter 5 - **Advanced Numbers**
 
-Chapter 6 - **Strings**
+Chapter 6 - **Boolean**
 
-Chapter 6 - **Strings Built-in functions**
+Chapter 7 - **Strings**
 
-Chapter 7 - **Type conversion**
+Chapter 8 - **Strings Built-in functions**
 
-Chapter 8 - **Type Conversion**
+Chapter 9 - **Type conversion**
+
+Chapter 10 - **Type Conversion**
 
 Chapter  - **Built-in functions**
 

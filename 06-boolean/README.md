@@ -28,3 +28,15 @@ Non-Boolean objects can be evaluated to be true or false as well.
 >>> type("Chelsea" in teams and "Real Madrid" in teams)
 <class 'bool'>
 ```
+
+Only these values will evaluate to ```False```:
+
+```py
+bool(False)
+bool(None)
+bool(0)
+bool("")
+bool(())
+bool([])
+bool({})
+```
