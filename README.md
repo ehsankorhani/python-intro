@@ -61,15 +61,19 @@ Chapter 1 - **Introduction**
 
 Chapter 2 - **Data structure and types**
 
-Chapter 3 - **Numbers**
+Chapter 3 - **Variables**
 
-Chapter 4 - **Boolean**
+Chapter 4 - **Numbers**
 
-Chapter 5 - **Strings**
+Chapter 5 - **Boolean**
 
-Chapter 6 - **Type conversion**
+Chapter 6 - **Strings**
 
-Chapter 7 - **Variables**
+Chapter 6 - **Strings Built-in functions**
+
+Chapter 7 - **Type conversion**
+
+Chapter 8 - **Type Conversion**
 
 Chapter  - **Built-in functions**
 
