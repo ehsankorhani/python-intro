@@ -96,6 +96,13 @@ my_miata.start() # The v4 engine is starting...
 ```
 
 <br>
+
+### Usage
+
+* When we don’t know beforehand the exact types and dependencies of the objects and we want to defer that to run time.
+* Can reduce code complexity in decision making matrixes.
+
+<br>
 <br>
 
 ---
